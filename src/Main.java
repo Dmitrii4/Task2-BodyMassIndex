@@ -1,8 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         BmiService service = new BmiService();
-        double Body_mass_index = service.calculate(82,1.90);
-        System.out.println(Body_mass_index);
-    }
+        double bodyMass = 82;
+        double growth = 1.90;
+        double bodyMassIndex = service.calculate(bodyMass, growth);
+        System.out.printf("Индекс массы тела %.2f", bodyMassIndex);    }
 
 }

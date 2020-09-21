@@ -1,6 +1,6 @@
 public class BmiService {
-    public double calculate(double body_mass, double growth) {
-        double index = body_mass / (growth * growth);
+    public double calculate(double bodyMass, double growth) {
+        double index = bodyMass / (growth * growth);
         return index ;
     }
 }
